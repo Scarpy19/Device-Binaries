@@ -2,7 +2,7 @@
 
 Patched copies of two vendor EFI drivers so Windows ARM64 can use the USB-C port in host mode (Redmi Note 13 Pro 5G, SM7435).
 These are Qualcomm-origin binaries modified by byte patching; check redistribution terms before reuse. Patch is not a source-level change.
-All file offsets are decimal-free hex file offsets; `orig -> new` bytes in hex.
+Offsets are hex file offsets; `orig -> new` bytes in hex.
 
 ## UsbConfigDxe.efi
 Original SHA-256 `4504cda7c50b6bc374cd7285975643aff2b69896ee57f1bb1767344a84ef8d9f`
